@@ -1,0 +1,8 @@
+name: logistic-regression-example
+
+docker_env: 
+  image: logistic-regression-example
+
+entry_points:
+  main:
+    command: "python train.py"
